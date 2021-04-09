@@ -135,7 +135,19 @@ img.add_border {
         </header>
     <div id="tipue_search_content"> <a href='Heroku.html'>Next</a> >> Heroku<br /><h1>Call for Code</h1>
 <p>RedHat Openshift and Github Pages</p>
-<p style="padding-left: 30px;"><a href="http://taiwan-no-1-git-heroku5-dev.apps.sandbox-m2.ll9k.p1.openshiftapps.com/content/index.html">http://taiwan-no-1-git-heroku5-dev.apps.sandbox-m2.ll9k.p1.openshiftapps.com/content/index.html</a> </p>
+<p style="padding-left: 30px;"><a href="http://taiwan-no-1-git-heroku5-dev.apps.sandbox-m2.ll9k.p1.openshiftapps.com/content/index.html">http://taiwan-no-1-git-heroku5-dev.apps.sandbox-m2.ll9k.p1.openshiftapps.com/content/index.html</a></p>
+<p>將 Github Pages 的網站部署到 <a href="https://www.heroku.com/">Heroku</a> 與 <a href="https://openshift.com">RedHat Openshift</a></p>
+<p>與上述 Openshift 上的網站同步:</p>
+<p style="padding-left: 30px;"><a href="https://taiwan-no1.herokuapp.com">https://taiwan-no1.herokuapp.com</a></p>
+<p style="padding-left: 30px;"><a href="https://heroku5.github.io/taiwan-no1">https://heroku5.github.io/taiwan-no1</a></p>
+<h4>三個雲端網站同步部署流程:</h4>
+<ol>
+<li>主要倉儲位於: <a href="https://github.com/heroku5/taiwan-no1">https://github.com/heroku5/taiwan-no1</a></li>
+<li>透過 Github Pages 設定完成: <a href="https://heroku5.github.io/taiwan-no1">https://heroku5.github.io/taiwan-no1</a></li>
+<li>透過 Heroku CLI 將近端倉儲在 Heroku 登入狀態下以<code> heroku git:remote -a taiwan-no1 設定 git remote add 後, 再透過 git push heroku 將資料同步至 Heroku 雲端主機 <a href="https://taiwan-no1.herokuapp.com">https://taiwan-no1.herokuapp.com</a> <br/></code></li>
+<li><code>RedHad Openshift 部分則以 php app, 透過兩段網站跳轉, 從 index.php 跳至 index.html 再跳轉至靜態網站 content/index.html, 完成 <a href="http://taiwan-no-1-git-heroku5-dev.apps.sandbox-m2.ll9k.p1.openshiftapps.com/content/index.html">http://taiwan-no-1-git-heroku5-dev.apps.sandbox-m2.ll9k.p1.openshiftapps.com/content/index.html</a></code></li>
+</ol>
+<p style="padding-left: 30px;"></p>
 <br /> <a href='Heroku.html'>Next</a> >> Heroku</div>
         
     <!-- footer -->
